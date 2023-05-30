@@ -1,4 +1,4 @@
-import './App.css'
+
 
 function Experience() {
   return (
@@ -12,11 +12,11 @@ function Experience() {
 function App() {
   
   return (
-    <>
+    <div className='text-center py-5'>
       <h1>Ahmad Aiman</h1>
       <h2>Software student</h2>
       <Experience />
-    </>
+    </div>
   )
 }
 
